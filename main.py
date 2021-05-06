@@ -48,7 +48,7 @@ def send_mail_4():
 	ob.sendmail(Name,ToSend,message4)
 	print("done")
 	ob.quit()
-schedule.every().day.at("12:35").do(send_mail_1)
+schedule.every().day.at("12:45").do(send_mail_1)
 schedule.every().day.at("12:36").do(send_mail_2)
 schedule.every().day.at("12:37").do(send_mail_3)
 schedule.every().day.at("12:38").do(send_mail_4)
